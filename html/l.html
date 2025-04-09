@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Your AI/ML Portfolio</title>
+    <link href="https://www.dropbox.com/scl/fi/ny7ukdv9ubuxt6q56hjkw/WhatsApp-Image-2025-01-24-at-06.38.33.jpeg?rlkey=lx6q01f8bpilwjox14d2zg7q7&st=qogz73vl&dl=0" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #F1E6FA;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(45deg, #6A5ACD, #D8B7DD);
+            color: white;
+            padding: 7rem 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        header h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            animation: fadeIn 2s ease-out;
+        }
+        header p {
+            font-size: 1.5rem;
+            animation: fadeIn 2s ease-out;
+            opacity: 0.7;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            border: 5px solid #fff;
+            animation: fadeIn 2s ease-out;
+        }
+        section {
+            padding: 4rem 0;
+            margin-bottom: 4rem;
+        }
+        h2 {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            animation: slideIn 1.5s ease-out;
+            color: #6A5ACD;
+        }
+        .about, .projects, .skills, .contact {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .about p {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            color: #555;
+            animation: slideIn 2s ease-out;
+        }
+        .project, .contact-info {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            width: 30%;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project:hover, .contact-info:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        .project h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #6A5ACD;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .project h3:hover {
+            color: #D8B7DD;
+        }
+        .project p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .contact-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #6A5ACD;
+        }
+        .contact-info a {
+            color: #6A5ACD;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        .contact-info a:hover {
+            color: #D8B7DD;
+        }
+        footer {
+            background-color: #6A5ACD;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .skills {
+            justify-content: center;
+            text-align: center;
+        }
+        .skills .skill {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+        .skills .skill img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+        .skills .skill img:hover {
+            transform: scale(1.2);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .project, .contact-info {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            header h1 {
+                font-size: 2.5rem;
+            }
+            header p {
+                font-size: 1.2rem;
+            }
+            h2 {
+                font-size: 2.5rem;
+            }
+            .skills .skill img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <img src="https://photos.app.goo.gl/3ZDWoe7MBpzviu7c7" alt="V. Purushothaman" class="profile-photo">
+        <h1>V. Purushothaman</h1>
+        <p>AI/ML Undergraduate | Passionate About Data Science & Machine Learning</p>
+    </div>
+</header>
+
+<section class="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am a second-year AI/ML student at VIT Chennai. With a deep interest in artificial intelligence and machine learning, I am dedicated to enhancing my skills through practical applications and research. My academic journey involves working on real-world problems and building innovative solutions in the fields of data science, deep learning, and natural language processing. I aspire to contribute significantly to AI development and leverage machine learning to solve complex challenges. In addition to academics, I actively engage in projects, hackathons, and competitions to sharpen my problem-solving and coding abilities.</p>
+    </div>
+</section>
+
+<section class="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/C_logo.png" alt="C">
+            <p>C</p>
+        </div>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+            <p>Python</p>
+        </div>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C%2B%2B_Logo.svg" alt="C++">
+            <p>C++</p>
+        </div>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Java_logo_%282013%29.svg" alt="Java">
+            <p>Java</p>
+        </div>
+    </div>
+</section>
+
+<section class="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Yet to be filled</h3>
+            <p>Yet to be filled</p>
+        </div>
+        <div class="project">
+            <h3>Yet to be filled</h3>
+            <p>Yet to be filled</p>
+        </div>
+        <div class="project">
+            <h3>Yet to be filled</h3>
+            <p>Yet to be filled</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <h3>Email</h3>
+            <p><a href="mailto:Venkatkeer2014@gmail.com">Venkatkeer2014@gmail.com</a></p>
+        </div>
+        <div class="contact-info">
+            <h3>LinkedIn</h3>
+            <p>Yet to be filled</p>
+        </div>
+        <div class="contact-info">
+            <h3>GitHub</h3>
+            <p><a href="https://github.com/your-profile" target="_blank">Visit my GitHub</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 V. Purushothaman - AI/ML Enthusiast</p>
+</footer>
+
+</body>
+</html>
+[kl;'
